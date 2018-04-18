@@ -11,3 +11,6 @@ def run():    global discount     time.sleep(1)    alpha = 1    t = 
         # MODIFY THIS SLEEP IF THE GAME IS GOING TOO FAST.        #time.sleep(0.1)                if GameNum==MaxGames-1:            book.save("MazeMoves.xls")                        
        
 t = threading.Thread(target=run)t.daemon = Truet.start()Maze.start_game()
+
+
+
